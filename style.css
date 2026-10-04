@@ -1,0 +1,31 @@
+ :root { --main-color:pink; --dark-color: purple; }
+        body { font-family: 'Poppins', sans-serif; background-color: white; }
+        
+        /* Navbar */
+        .navbar { background: rgb(207, 105, 182); border-bottom: 1px grey; }
+        .navbar-brand img { height: 50px; }
+        .nav-link { color: purple !important; font-weight: 500; margin: 0 10px; }
+        .nav-link:hover { color: var(--main-color) !important; }
+
+        /* Hero Section */
+        .hero { 
+            background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('https://vibrantskinbar.com/wp-content/uploads/best-natural-skin-care-routine.jpg');
+            background-size: cover; background-position: center;
+            height: 90vh; display: flex; align-items: center; color: white;
+        }
+        .btn-custom { background-color: var(--main-color); color: purple; border-radius: 20px; padding: 10px 30px; }
+
+        /* Section Styling */
+        section { padding: 60px 0; }
+        .section-title { text-align: center; margin-bottom: 40px; border-bottom: 2px solid pink; display: inline-block; padding-bottom: 10px; }
+        .title-wrapper { text-align: center; }
+
+        /* Menu & Product Cards */
+        .card { border: 1px solid grey; transition: 0.7s; text-align: center; margin-bottom: 20px; }
+        .card:hover { box-shadow: 0 5px 15px rgba(0,0,0,0.1); transform: translateY(-5px); }
+        .card img { height: 200px; object-fit: cover; }
+        .price { color: purple; font-weight: bold; }
+        .old-price { text-decoration: line-through; color: #999; font-size: 0.9rem; }
+
+        /* Contact Section */
+        .contact-info { background: grey; color: solid black; padding: 40px; }
